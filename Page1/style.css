@@ -1,0 +1,170 @@
+body {
+  background-color: #00AA00;
+  width: 1920px;
+}
+
+/*
+Header
+*/
+
+#header {
+  position: relative;
+  background-color: #fff;
+  height: 150px;
+  z-index: 10;
+}
+
+/*
+Header logo
+*/
+
+#logo {
+  position: absolute;
+  left: 300px;
+  width: 300px;
+  height: 150px;
+  border-style: solid;
+  border-width: 0px 3px 0px 0px;
+  border-color: #ddd;
+}
+
+/*
+Header navigation
+*/
+
+#navigation {
+  position: absolute;
+  height: 100px;
+  width: 1200px;
+  left: 600px;
+  top: 25px;
+  bottom: 25px;
+
+}
+#navigation li {
+  float: left;
+  width: 200px;
+
+}
+#navigation li a:hover {
+  color: #ec8602;
+  //display: block;
+}
+#navigation-ul {
+  list-style: none;
+
+}
+#navigation ul {
+  /*margin-top: 100%;
+  margin-bottom: 100%;*/
+}
+/*
+Header Navigation child
+*/
+
+#navigation ul ul {
+  display: none;
+}
+#navigation ul li:hover ul {
+  display: block;
+}
+#navigation ul ul {
+  list-style: none;
+}
+#navigation ul ul li {
+  background-color: #eee;
+  padding: 10px 0 10px 0;
+  float: none;
+}
+#navigation ul ul li:hover {
+  background-color: #ec8602;
+}
+#navigation ul ul li a:hover {
+  color: #fff;
+}
+
+/*
+Main content
+*/
+
+#main-content {
+  position: relative;
+  width: 1920px;
+  margin: 0px auto;
+}
+
+/*
+Main content primary
+*/
+
+#primary {
+  background-color: #fff;
+  position: absolute;
+  height: 1000px;
+  width: 1000px;
+  left: 600px;
+  border-style: solid;
+  border-color: #ddd;
+  border-width: 0px 3px 0px 3px;
+}
+#primary h2 {
+  border-style: solid;
+  border-color: #00AA00;
+  border-width: 1px 0px 1px 20px;
+  padding: 10px 0 15px 5px;
+  border-top-color: #ddd;
+  border-bottom-color: #ddd;
+}
+#primary h3 {
+  border-style: dotted;
+  border-color: #ddd;
+  border-width: 0px 0px 3px 0px;
+  padding: 5px 0 5px 0;
+}
+
+/*#primary p {
+  display: block;
+}*/
+
+.primary-section {
+  margin: 60px 60px 20px 20px;
+}
+
+/*
+Main content secondary
+*/
+
+#secondary {
+  background-color: #fff;
+  position: absolute;
+  width: 300px;
+  left: 300px;
+  top: 150px;
+  font-size: 90%;
+}
+#secondary ul li {
+  padding: 10px 0 20px 0;
+  border-style: solid;
+  border-color: #ddd;
+  border-width: 0 0 1px 0;
+}
+#secondary li a:hover {
+  color: #ec8602
+}
+#secondary li a {
+  color: #666;
+}
+#secondary h3 {
+  background-color: #ec8602;
+  padding: 20px 10px;
+  color: #fff;
+}
+#secondary p {
+  margin: 10px;
+}
+#secondary ul {
+  list-style: none;
+}
+.clear {
+  clear: both;
+}
