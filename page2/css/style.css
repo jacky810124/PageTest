@@ -1,0 +1,164 @@
+body{
+    height: 1080px;
+    width: 1900px;
+}
+
+
+#header{
+    padding: 50px 400px 50px 400px;
+    background-color: #ddd;
+    height: 10%;
+}
+
+#logo{
+    //width: 30%;
+    text-align: center;
+    float: left;
+    
+}
+
+/*
+
+Navigation
+
+*/
+#navigation{
+    margin-left: auto;
+    
+}
+
+#navigation ul{
+    list-style: none;
+    
+}
+
+#navigation ul li{
+    float: left;
+    padding: 0 75px 0 75px;
+    margin-top: auto;
+    margin-top: 18px;
+}
+
+#navigation ul li:first-child p {
+    color: coral;
+}
+
+/*
+
+main content
+
+*/
+
+#main-content{
+    margin: 25px 450px 25px 450px;
+    height: 80%;
+}
+
+.main-section{
+    
+    padding-bottom:25px;
+    padding-top: 25px;
+}
+
+/*
+
+primary content section
+
+*/
+#primary-content-section1{
+    width: 50%;
+    float: left;
+}
+#primary-content-section2{
+    width: 50%;
+    float:right;
+    text-align: center;
+}
+
+.primary-content-section{
+    margin: 50px 0 50px 0;
+}
+
+/*
+
+primary content section1 section
+
+*/
+#primary-content-section1-section{
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+#primary-content-section1-button{
+    width: 100%;
+    height: 50px;
+    background-color: darkorange;
+}
+/*
+
+secondary content
+
+*/
+
+/*
+
+secondary content section
+
+*/
+
+#secondary-content-section1{
+    width: 45%;
+    float: left;
+    
+}
+
+#secondary-content-section2{
+    float: right;
+    width: 45%;
+    
+}
+
+/*
+
+footer
+
+*/
+#footer{
+    background-color: #ddd;
+    height: 10%;
+    padding: 0 400px 0 400px;
+    
+}
+
+#copyright{
+    float: left;
+    width: 50%;
+    margin-top: 35px;
+}
+
+#social-site{
+    float: right;
+    width: 50%;
+    text-align: right;
+    margin-top: 42px;
+}
+
+/*
+
+social site image
+
+*/
+
+#social-site img{
+    padding: 0 20px 0 20px;
+}
+
+/*
+
+clear 
+
+*/
+.clear{
+    clear: both;
+}
