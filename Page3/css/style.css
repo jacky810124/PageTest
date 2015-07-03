@@ -1,0 +1,233 @@
+body{
+  width: 1200px;
+  //height: 2000px;
+  margin-left: auto;
+  margin-right: auto;
+    font-family:monospace;
+    font-size: 130%;
+}
+/*
+=============================================
+header
+=============================================
+*/
+
+#header{
+  //height: 10%;
+  background-color:dimgray;
+  padding-left: 100px;
+  padding-right: 100px;
+    color: ghostwhite;
+}
+/*
+logo
+*/
+#logo{
+  float: left;
+}
+
+#logo h1{
+  padding-top: 16px;
+}
+
+/*
+navigation
+*/
+#navigation{
+    padding-top: 15px;
+    
+}
+
+#navigation ul{
+  list-style: none;
+}
+
+#navigation ul li{
+    float: right;
+    padding-left: 42px;
+    padding-right: 42px;
+  
+}
+#navigation ul li:first-child{
+    padding-right: 0px;
+}
+
+
+#navigation ul img{
+    padding-top: 10px;
+}
+/*
+=============================================
+content
+=============================================
+*/
+#main-content{
+    //height: 67%;
+    text-align: center;
+    font-size: 117%;
+}
+
+#main-content .section{
+    margin-bottom: 80px;
+}
+/*
+content1-section1
+*/
+#content1-section1{
+    width: 1200px;
+    height: 700px;
+    background-image:url(../img/android.jpg);
+}
+#content1-section1 div{
+    width: 600px;
+    height: 200px;
+    background-color:floralwhite;
+    opacity: 0.5;
+    margin: 0 auto;
+    display: inline-block;
+    margin-top: 300px;
+    
+}
+#content1-section1 h2{
+    padding-top: 50px;
+    margin: 0px;
+    font-size: 240%;w
+}
+#content1-section1 p{
+    background-color: black;
+    padding: 10px;
+    color: ghostwhite;
+    margin: 15px 200px;
+    text-transform: capitalize;
+    
+}
+/*
+content1-section2
+*/
+#content1-section2{
+    margin-top: -5px;
+    background-color: gainsboro;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    font-size: 80%;
+}
+
+#content1-section2 p{
+    word-spacing: 20px;
+}
+
+/*
+
+content3 image
+
+*/
+#content3 img{
+    float: left;
+    width: 200px;
+    margin: 0 10px;
+}
+
+#content3{
+    display: inline-block;
+    margin: 0 auto;
+}
+
+
+/*
+=============================================
+footer
+=============================================
+*/
+#footer{
+    width: 1200px;
+    background-color:dimgray;
+    text-align: center;
+    color: ghostwhite;
+    padding: 90px 0;
+}
+/*
+footer section1
+*/
+#footer-section1{
+    display: inline-block;
+}
+
+#footer-section1 > div{
+    float: left;
+    padding: 0 70px;
+}
+
+/*
+footer section1 left
+*/
+#footer-section1-left{
+    width: 200px;
+}
+
+#footer-section1-left ul{
+    padding: 0px;
+    list-style: none;
+}
+#footer-section1-left ul li{
+    float: left;
+    margin: 0 5px;
+}
+#footer-section1-left ul li img{
+    //margin: 0 auto;
+}
+#footer-section1-left-socialsites{
+    display: inline-block;
+    text-align: center;
+}
+/*
+footer section1 middle
+*/
+  
+#footer-section1-middle p:nth-child(2){
+    border-style: solid;
+    border-bottom-width: 1px;
+    border-color: white;
+    padding: 5px 40px 5px 0px;
+    
+}
+#footer-section1-middle button{
+    float: right;
+    text-transform:capitalize;
+    padding: 10px;
+}
+#footer-section1-middle{
+    width: 300px;
+    text-align:left;
+} 
+#footer-section1-middle button{
+    float: right;
+}
+
+/*
+footer section1 right
+*/
+
+#footer-section1-right{
+    width: 160px;
+}
+
+/*
+=============================================
+class
+=============================================
+*/
+.clear{
+  clear: both;
+}
+
+.line{
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: darkgray;
+}
+.font-uppercase{
+    text-transform: uppercase;
+}
