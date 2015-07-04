@@ -1,0 +1,30 @@
+#background-gray {
+    background-color: #D0D0C8;
+    width: 1600px;
+    height: 200px;
+}
+/*
+=======================
+header
+=======================
+*/
+
+/*
+logo
+*/
+#logo img{
+    width: 100px;
+    height: 100px;
+}
+
+#logo > *{
+    //float: left;
+}
+
+
+
+
+
+.clear{
+    clear: both;
+}
