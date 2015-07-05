@@ -1,94 +1,176 @@
 h1 {
     text-transform: capitalize;
+    font-size: 250%;
 }
-
-p {
+h3{
     text-transform: capitalize;
 }
-
+p:first-letter {
+    text-transform: capitalize;
+}
 #background-gray {
     background-color: #D0D0C8;
 }
-
-#background-green{
+#background-green {
     background-color: darkgreen;
     width: 80%;
     margin: 0 auto;
 }
-
-#container *{
+#container * {
     margin: 0 auto;
-    font-family:sans-serif;
+    font-family: sans-serif;
 }
 
-
-/*
+/*   
 =======================
 header
 =======================
 */
-#header{
+
+#header {
     width: 95%;
 }
 
 /*
 logo
 */
-#logo{
+
+#logo {
     background-color: white;
-    width: 700px;
-    
+    //width: 700px;
 }
-#logo-container{
-    display: inline-block;
-    width: 500px;
-    
+#logo-container {
+    width: 90%;
 }
-#logo .section{
-    margin: 0 15px;
+#logo .section {
+    margin: 20px 20px;
 }
+
 /*
 logo-img
 */
-#logo-img{
-    display: inline-block;
-    height: 100px;
-    padding-top: 15px
-}
 
-#logo-img img{
+#logo-img {
+    display: inline-block;
+    padding-top: 5px;
+    width: 20%;
+}
+#logo-img img {
     width: 70px;
     height: 70px;
 }
+
 /*
 logo-text
 */
+
 #logo-text {
     float: left;
-    display: inline-block;
     text-align: right;
-    padding-top: 30px
+    padding-top: 10px;
+    width: 65%;
 }
 
-#logo h1{
-    font-size: 200%;
-}
-
-#logo p{
+#logo p {
+    padding-top: 2px;
     color: orange;
 }
 
 /*
 navigation
 */
-#navigation{
-    display: inline-block;
-}
 
-#navigation ul li{
+#navigation {
+    text-align: center;
+    width: 100%;
+}
+#navigation ul {
+    //display: inline-block;
+}
+#navigation ul li {
+    color: lightgray;
     float: left;
+    padding: 20px 0;
+    width: 16%;
+    background-color: #333;
+    
+}
+#navigation ul li:first-child {
+    background-color: #96B285;
+    color: darkgreen;
+    width: 18%;
+}
+#navigation ul li:last-child {
+    width: 18%;
+}
+#navigation ul li:nth-child(4) {
+    background-color: #DBEAD1;
+    color: #111;
 }
 
+/*
+=======================
+primary content
+=======================
+*/
+
+/*
+gallery
+*/
+#gallery{
+    width: 95%;
+    background-image: url(../image/Tulips.jpg);
+    height: 400px;
+    border-top-color: #DBEAD1;
+    border-top-width: 1px;
+    border-top-style: solid;
+    position: relative;
+}
+
+#gallery-info{
+    position:absolute;
+    bottom: 0px;
+    width: 100%;
+    background-color: black;
+    opacity: 0.7;
+}
+
+#gallery-info h1{
+    color: #E4E698;
+    font-size: 200%;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+#gallery-info p{
+    color: white;
+    padding: 0 20px 10px 20px;
+    
+}
+
+#gallery-info img{
+    width: 25px;
+    height: 25px;
+    margin-top: 5px;
+}
+
+/*
+little-picture
+*/
+#little-picture{
+    margin: 20px;
+}
+#little-picture img{
+    width: 100px;
+    height: 100px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+}
+
+#little-picture h3{
+    color: #E4E698;
+}
 .clear {
     clear: both;
 }
+div {}
