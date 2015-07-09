@@ -1,0 +1,246 @@
+body {
+    font-family: 'Merriweather', serif;
+}
+p {
+    font-family: 'Comfortaa', cursive;
+}
+P::first-letter {
+    text-transform: capitalize;
+}
+a{
+    text-transform: capitalize;
+    font-family: 'Comfortaa', cursive;
+}
+h2{
+    text-transform: capitalize;
+}
+
+/*
+==========================================
+header
+==========================================
+*/
+
+#header {
+/*    height: 100px;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #350835;
+    padding: 40px 0;
+    /*    background-color: @brand-primary;*/
+}
+
+#header ul{
+    margin-bottom: 0;
+}
+
+#header li:first-child a {
+    color: white;
+    margin: 0 50px;
+}
+#header li:nth-child(2) a {
+    color: #FF5C8A;
+    margin: 0 50px;
+}
+
+/*
+==========================================
+main
+==========================================
+*/
+
+
+/*
+==========================================
+main-section1
+==========================================
+*/
+
+#section1 {
+    padding: 0.1px;
+    background-image: url(../image/android_wallpaper.jpg);
+    background-size: cover;
+/*    height: 600px;*/
+    color: white;
+/*
+    display: flex;
+    justify-content: center;
+    align-items: center;
+*/
+}
+
+#section1-text {
+    width: 100%;
+/*    height: 50%;*/
+    margin: 200px 0 50px 0;
+}
+#text-title > h2{
+    margin-bottom: 200px;
+}
+#text-title > img {
+    width: 50%;
+    
+}
+
+
+#section1-more{
+    position: relative;
+    bottom: -8px;
+    text-align: center;
+    height: 20%;
+}
+#section1-more a {
+    padding: 20px 80px;
+    background-color: #FF0048;
+    color: white;
+    
+}
+
+#section1-more > div{
+    position: relative;
+    bottom: -17px;
+    display: flex;
+    align-content:flex-end;
+    justify-content: center;
+    padding: 0.1px;
+}
+
+/*
+==========================================
+main-section2
+==========================================
+*/
+/*
+#section2{
+    padding: 1px;
+}
+*/
+#section2 .col-lg-3 {
+    padding: 0 0;
+}
+#section2 img {
+    width: 100%;
+    height: 100%;
+}
+
+/*
+==========================================
+main-section3
+==========================================
+*/
+
+#section3 {
+    padding: 70px 0;
+    background-color: white;
+/*    height: 700px;*/
+    
+}
+
+#section3-title1 p{
+    background-color: #FF0048;
+    padding: 30px;
+    color: white;
+    margin: 0;
+}
+#section3-title1 > div{
+    display: flex;
+    justify-content: center;
+}
+#section3-title2{
+    margin: 50px 0;
+    color: #FF0048;
+}
+
+.col-lg-4 h2{
+/*  text in section3-image  */
+    text-transform: capitalize;
+    color: #FF0048;
+}
+#section3-title2 h3{
+    text-transform: capitalize;
+}
+
+#section3-image > .row > div{
+    padding: 0;
+}
+
+.row img{
+/*  image in section3-image  */
+    width: 100%;
+    height: 100%;
+}
+
+#contact{
+    margin: 30px 0;
+}
+
+#contact a{
+    background-color: black;
+    padding: 10px 60px;
+    color: white;
+}
+/*
+==========================================
+main-section4
+==========================================
+*/
+#section4{
+    background-color: black;
+    color: white;
+}
+
+#section4 .row{
+    margin: 50px 0;
+}
+
+#section4-content2{
+    margin-top: 100px;
+}
+
+#section4 h1{
+    margin: 50px 0;
+}
+
+#section4-back{
+    margin: 50px 0;
+}
+
+#section4-back a{
+    text-transform: uppercase;
+    padding: 10px 40px;
+    background-color: white;
+    color: black;
+}
+/*
+==========================================
+footer
+==========================================
+*/
+#footer{
+    padding: 30px 0;
+    background-color: #E3E3E3;
+}
+
+#footer p:after{
+    content:"jacky";
+    color: #FF5C8A;
+}
+
+
+.clear {
+    clear: both;
+}
+.float-left {
+    float: left;
+}
+.center {
+    margin: 0 auto;
+}
+.triangle{
+    z-index: 2;
+    width: 20px;
+    border-top: 25px solid #FF0048;
+    border-left: 25px solid rgba(255, 255, 255, 0);
+    border-right: 25px solid rgba(255, 255, 255, 0);
+}
