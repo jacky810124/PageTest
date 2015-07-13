@@ -12,8 +12,83 @@ Classes
     background-image: url(../image/background.png);
 }
 .background3 {
+    /*    margin-top: -30px;e*/
     background-color: black;
     height: 300px;
+}
+.background4 {
+    background-image: url(../image/background2.png);
+}
+.arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    height: 150px;
+    width: 50px;
+    background-color: black;
+}
+.section5 {
+    display: flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+    height: 450px;
+}
+.date {
+    padding: 10px;
+    background-color: #81B800;
+    display: inline-block;
+    color: white;
+    margin-bottom: 30px;
+}
+.section5-newsandevents {
+    display: flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+    /*    height: 142px;*/
+}
+.section5-whychooseus {
+    border-bottom: 1px solid #DEDEDE;
+    padding-bottom: 10px;
+}
+.section6-image {
+    /*
+    display: flex;
+    justify-content: space-around;
+*/
+}
+.arrow-center {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.background-gray {
+    background-color: #DDD;
+}
+.section7 {
+    /*    padding: 30px 15px;*/
+    height: 350px;
+    /*
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+*/
+}
+.flicker {
+    /*
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-between;
+*/
+}
+.section8 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    color: gainsboro;
+    margin-top: -250px;
 }
 .float-left {
     float: left;
@@ -24,11 +99,14 @@ Classes
 .clear {
     clear: both;
 }
+
 /*
 .active{
     background-color: #81B800;
 }
 */
+
+
 /*
 ===================================
 Tags
@@ -52,6 +130,18 @@ ul {
     list-style: none;
 }
 a {
+    text-transform: uppercase;
+}
+button {
+    text-transform: uppercase;
+}
+h4 {
+    text-transform: uppercase;
+}
+h2 {
+    text-transform: uppercase;
+}
+h3 {
     text-transform: uppercase;
 }
 
@@ -81,8 +171,7 @@ Section1: Header
     justify-content: flex-end;
     align-items: center;
 }
-
-#contact-info li{
+#contact-info li {
     padding-left: 10px;
 }
 
@@ -91,22 +180,26 @@ Section1: Header
 Section2: Navigation
 ===================================
 */
-#section2{
+
+#section2 {
     margin-top: 30px;
-    
 }
-
-#navigation{
-/*  Think how to clear padding-right and padding-left  */
-    
-    
-
+#navigation {
+    /*  Think how to clear padding-right and padding-left  */
     padding-left: 0px;
-/*    padding-right: 0px;
+    /*    padding-right: 0px;
 */
 }
+#nav-home > a {
+    color: white;
+}
 
-#nav-home > a{
+#navigation-home{
+    background-color: #81B800;
+    
+}
+
+#navigation-home a{
     color: white;
 }
 
@@ -115,7 +208,8 @@ Section2: Navigation
 Section2: SearchBox
 ===================================
 */
-#searchbox{
+
+#searchbox {
     padding-top: 8.5px;
     padding-bottom: 8.5px;
     background-color: #FFF;
@@ -127,37 +221,148 @@ Section3: Cover
 ===================================
 */
 
-#section3{
+#section3 {
     background-image: url(../image/cover.jpg);
-    height: 400px;
+    height: 500px;
     background-size: cover;
-    margin-top: -20px;
+    /*    margin-top: -20px;*/
 }
-
-#section3 > div{
+#section3 > div {
     width: 100%;
     height: 100%;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+
+/*
+===================================
+Section4
+===================================
+*/
+
+#section4 {
+    background-image: url(../image/background2.png);
+}
+#section4 > div {
+    text-align: center;
+    height: 350px;
+}
+#section4 h4 {
+    width: 191px;
+}
+#section4 a {
+    padding: 5px 15px;
+    background-color: gray;
+    color: black;
+}
+#section4 > div > div {
+    border: 1px solid #DEDEDE;
+    background-color: #E8E8E8;
+    height: 100%;
+    padding: 15px;
+    margin-top: -20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
     justify-content: space-around;
 }
-
-#left-arrow{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    float: left;
-    height: 100px;
-    width: 50px;
-    background-color: black;
+#section4 > div:last-child > div {
+    border: 1px solid black;
+    background-color: rgba(83, 83, 83, 0.9);
+    color: white;
 }
 
-#right-arrow{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    float: left;
-    height: 100px;
-    width: 50px;
-    background-color: black;
+/*
+===================================
+Section5
+===================================
+*/
+
+#section5 {
+    /*    */
+    padding-bottom: 50px;
 }
+#section5 h2 {
+    width: 100%;
+}
+#section5 a {
+    color: black;
+}
+
+/*
+===================================
+Section6
+===================================
+*/
+
+#section6 {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 100px;
+}
+
+/*
+===================================
+Section7
+===================================
+*/
+
+#section7 {
+    margin-top: 50px;
+    z-index: 2;
+    position: relative;
+}
+#section7 h3 {
+    padding: 10px 0;
+}
+#clearform {
+    background-color: black;
+    color: white;
+}
+#section7-2 > * {
+    margin-bottom: 25px;
+}
+#section7-2-text::after {
+    content: "";
+    width: 0;
+    height: 0;
+    border: 15px solid red;
+    border-color:  #DDD transparent transparent transparent;
+    position: relative;
+    bottom: -35px;
+    left: 0px;
+}
+
+#section7-2-link{
+    color: #81B800;
+    
+}
+#section7-3 > * {
+    margin-bottom: 5px;
+}
+
+/*
+===================================
+Section8
+===================================
+*/
+
+#section8 a {
+    color: gainsboro;
+    border-right: 1px solid #DDD;
+    padding-right: 10px;
+    padding-left: 10px
+}
+
+#section8 a:first-child{
+    color: #81B800;
+}
+#section8-text {
+    text-align: right;
+}
+#section8 a:last-child {
+    border-right: 0px solid #DDD;
+}
+
+
