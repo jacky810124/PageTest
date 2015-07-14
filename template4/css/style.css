@@ -1,0 +1,273 @@
+/* line 27, C:/Users/kang/Desktop/template4/css/style.sass */
+.background-black {
+  background-color: #000;
+  border-bottom: 1px solid #FFF; }
+
+/* line 31, C:/Users/kang/Desktop/template4/css/style.sass */
+.background-wood {
+  background-image: url("../image/background.png"); }
+
+/* line 34, C:/Users/kang/Desktop/template4/css/style.sass */
+.background-yellow {
+  background-color: #FFC847; }
+
+/* line 36, C:/Users/kang/Desktop/template4/css/style.sass */
+.background-white {
+  background-color: #FFF; }
+
+/* line 39, C:/Users/kang/Desktop/template4/css/style.sass */
+.container {
+  width: 1200px;
+  margin: 0 auto; }
+
+/* line 43, C:/Users/kang/Desktop/template4/css/style.sass */
+.clear {
+  clear: both; }
+
+/* line 47, C:/Users/kang/Desktop/template4/css/style.sass */
+.color-yellow {
+  color: #FFC847; }
+
+/* line 52, C:/Users/kang/Desktop/template4/css/style.sass */
+body {
+  margin: 0 auto;
+  line-height: 1.8em;
+  font-size: 1em; }
+  /* line 57, C:/Users/kang/Desktop/template4/css/style.sass */
+  body a {
+    text-transform: uppercase;
+    text-decoration: none; }
+  /* line 61, C:/Users/kang/Desktop/template4/css/style.sass */
+  body p::first-letter {
+    text-transform: uppercase; }
+  /* line 64, C:/Users/kang/Desktop/template4/css/style.sass */
+  body h1 {
+    text-transform: uppercase;
+    font-size: 3em; }
+  /* line 68, C:/Users/kang/Desktop/template4/css/style.sass */
+  body h2 {
+    text-transform: uppercase;
+    font-size: 2em; }
+  /* line 72, C:/Users/kang/Desktop/template4/css/style.sass */
+  body h3 {
+    text-transform: uppercase;
+    font-size: 1.75em; }
+  /* line 75, C:/Users/kang/Desktop/template4/css/style.sass */
+  body h4 {
+    text-transform: uppercase;
+    font-size: 1.5em; }
+  /* line 78, C:/Users/kang/Desktop/template4/css/style.sass */
+  body h5 {
+    text-transform: capitalize;
+    font-size: 1.25em; }
+
+/* line 86, C:/Users/kang/Desktop/template4/css/style.sass */
+#navigation li {
+  float: left;
+  padding-left: 10px; }
+
+/* line 89, C:/Users/kang/Desktop/template4/css/style.sass */
+#navigation a {
+  color: #FFF; }
+
+/* line 92, C:/Users/kang/Desktop/template4/css/style.sass */
+#navigation li:first-child a {
+  color: #FFC847; }
+
+/* line 95, C:/Users/kang/Desktop/template4/css/style.sass */
+header {
+  background-color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px; }
+  /* line 104, C:/Users/kang/Desktop/template4/css/style.sass */
+  header img {
+    height: 50%; }
+
+/* line 108, C:/Users/kang/Desktop/template4/css/style.sass */
+#cover {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #FFF; }
+  /* line 115, C:/Users/kang/Desktop/template4/css/style.sass */
+  #cover div {
+    width: 50%;
+    height: 398px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    background-color: #FFF; }
+    /* line 127, C:/Users/kang/Desktop/template4/css/style.sass */
+    #cover div img {
+      height: 100%;
+      width: 100%; }
+    /* line 131, C:/Users/kang/Desktop/template4/css/style.sass */
+    #cover div p, #cover div h1 {
+      margin: 20px 30px; }
+  /* line 134, C:/Users/kang/Desktop/template4/css/style.sass */
+  #cover > div:first-child {
+    background-image: url(../image/cover.jpg);
+    background-size: cover; }
+    /* line 139, C:/Users/kang/Desktop/template4/css/style.sass */
+    #cover > div:first-child > div {
+      width: 150px;
+      height: 200px;
+      position: relative;
+      right: -185px;
+      bottom: -185px;
+      background-color: transparent; }
+      /* line 150, C:/Users/kang/Desktop/template4/css/style.sass */
+      #cover > div:first-child > div a {
+        padding: 10px;
+        background-color: #FFC847;
+        color: #AAA; }
+      /* line 156, C:/Users/kang/Desktop/template4/css/style.sass */
+      #cover > div:first-child > div p {
+        margin: 0 0; }
+
+/* line 162, C:/Users/kang/Desktop/template4/css/style.sass */
+#room-info {
+  display: flex;
+  color: #FFF; }
+  /* line 167, C:/Users/kang/Desktop/template4/css/style.sass */
+  #room-info div {
+    width: 400px;
+    background-color: #000; }
+    /* line 171, C:/Users/kang/Desktop/template4/css/style.sass */
+    #room-info div img {
+      width: 100%;
+      border-bottom: 3px dotted #FFC847; }
+    /* line 175, C:/Users/kang/Desktop/template4/css/style.sass */
+    #room-info div h3, #room-info div p {
+      padding: 15px; }
+  /* line 178, C:/Users/kang/Desktop/template4/css/style.sass */
+  #room-info div:nth-child(2) {
+    background-color: #4C3B34; }
+
+/* line 183, C:/Users/kang/Desktop/template4/css/style.sass */
+#contact-info {
+  display: flex; }
+  /* line 186, C:/Users/kang/Desktop/template4/css/style.sass */
+  #contact-info > div {
+    width: 400px;
+    padding: 20px 15px; }
+    /* line 190, C:/Users/kang/Desktop/template4/css/style.sass */
+    #contact-info > div h4 {
+      color: #AAA; }
+  /* line 193, C:/Users/kang/Desktop/template4/css/style.sass */
+  #contact-info > div:first-child {
+    border-right: 3px dotted #FFC847; }
+    /* line 197, C:/Users/kang/Desktop/template4/css/style.sass */
+    #contact-info > div:first-child * {
+      padding-bottom: 10px; }
+  /* line 201, C:/Users/kang/Desktop/template4/css/style.sass */
+  #contact-info > div:last-child h4 {
+    color: #FFF; }
+
+/* line 205, C:/Users/kang/Desktop/template4/css/style.sass */
+.blog {
+  display: flex;
+  background-color: #AAA;
+  border: 1px solid #FFF;
+  padding-left: 15px; }
+  /* line 214, C:/Users/kang/Desktop/template4/css/style.sass */
+  .blog div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 50%; }
+  /* line 219, C:/Users/kang/Desktop/template4/css/style.sass */
+  .blog img {
+    width: 100%;
+    height: 100%; }
+  /* line 222, C:/Users/kang/Desktop/template4/css/style.sass */
+  .blog a {
+    color: #000; }
+
+/* line 226, C:/Users/kang/Desktop/template4/css/style.sass */
+footer {
+  display: flex;
+  background-color: #FFC847; }
+  /* line 230, C:/Users/kang/Desktop/template4/css/style.sass */
+  footer h4 {
+    padding-bottom: 30px; }
+  /* line 233, C:/Users/kang/Desktop/template4/css/style.sass */
+  footer > div {
+    width: 400px;
+    padding: 20px 10px; }
+  /* line 237, C:/Users/kang/Desktop/template4/css/style.sass */
+  footer > div:first-child {
+    padding-left: 0px; }
+    /* line 241, C:/Users/kang/Desktop/template4/css/style.sass */
+    footer > div:first-child img {
+      width: 100%;
+      height: 100%; }
+  /* line 245, C:/Users/kang/Desktop/template4/css/style.sass */
+  footer > div:nth-child(2) {
+    border-right: 3px dotted #AAA;
+    border-left: 3px dotted #AAA; }
+    /* line 252, C:/Users/kang/Desktop/template4/css/style.sass */
+    footer > div:nth-child(2) > div {
+      padding-bottom: 20px; }
+    /* line 255, C:/Users/kang/Desktop/template4/css/style.sass */
+    footer > div:nth-child(2) img {
+      width: 50px;
+      height: 50px; }
+  /* line 259, C:/Users/kang/Desktop/template4/css/style.sass */
+  footer > div:last-child {
+    padding-right: 0px; }
+    /* line 262, C:/Users/kang/Desktop/template4/css/style.sass */
+    footer > div:last-child a {
+      padding: 10px;
+      background-color: #000;
+      color: #FFF;
+      margin-bottom: 10px; }
+    /* line 269, C:/Users/kang/Desktop/template4/css/style.sass */
+    footer > div:last-child input {
+      width: 100%;
+      height: 30px;
+      margin-bottom: 10px; }
+    /* line 276, C:/Users/kang/Desktop/template4/css/style.sass */
+    footer > div:last-child > div:first-child {
+      display: flex;
+      flex-wrap: wrap;
+      border-bottom: 3px dotted #AAA; }
+    /* line 284, C:/Users/kang/Desktop/template4/css/style.sass */
+    footer > div:last-child > div:last-child {
+      padding-top: 20px;
+      padding-bottom: 20px; }
+      /* line 289, C:/Users/kang/Desktop/template4/css/style.sass */
+      footer > div:last-child > div:last-child img {
+        padding-left: 5px;
+        padding-right: 5px; }
+
+/* line 295, C:/Users/kang/Desktop/template4/css/style.sass */
+.section {
+  width: 50px;
+  height: 50px;
+  padding-right: 30px; }
+
+/* line 302, C:/Users/kang/Desktop/template4/css/style.sass */
+.post {
+  display: flex;
+  align-items: center; }
+
+/* line 308, C:/Users/kang/Desktop/template4/css/style.sass */
+#copyright {
+  background-color: #FFC847;
+  border-top: 3px dotted #AAA;
+  display: flex;
+  justify-content: space-between; }
+  /* line 317, C:/Users/kang/Desktop/template4/css/style.sass */
+  #copyright ul {
+    display: flex; }
+    /* line 320, C:/Users/kang/Desktop/template4/css/style.sass */
+    #copyright ul li {
+      padding-left: 10px; }
+      /* line 323, C:/Users/kang/Desktop/template4/css/style.sass */
+      #copyright ul li a {
+        color: #AAA; }
+
+/*# sourceMappingURL=style.css.map */

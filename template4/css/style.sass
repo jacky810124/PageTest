@@ -1,0 +1,330 @@
+//@import reset
+
+$color-yellow: #FFC847
+$color-white: #FFF
+$color-brown: #4C3B34
+$color-black: #000;
+$color-gray: #AAA
+
+$background-wood: '../image/background.png'
+
+$container-width: 1200px
+
+$line-height: 1.8em
+$font-size: 1em
+
+$yellow-border-width: 3px
+$yellow-border-style: dotted
+$yellow-border-color: $color-yellow
+
+$gray-border-width: 3px
+$gray-border-style: dotted
+$gray-border-color: $color-gray
+
+
+
+//Default classes
+.background-black
+    background-color: $color-black
+    border-bottom: 1px solid $color-white
+
+.background-wood
+    background-image: url($background-wood)
+    
+.background-yellow
+    background-color: $color-yellow
+.background-white
+    background-color: $color-white
+    
+.container
+    width: $container-width
+    margin: 0 auto
+    
+.clear
+    clear: both
+    
+//Classes
+.color-yellow
+    color: $color-yellow
+    
+
+//Defaut tags    
+body
+    margin: 0 auto
+    line-height: $line-height
+    font-size: $font-size
+    
+    a
+        text-transform: uppercase
+        text-decoration: none
+        
+    p::first-letter
+        text-transform: uppercase
+    
+    h1
+        text-transform: uppercase
+        font-size: $font-size*3
+        
+    h2
+        text-transform: uppercase
+        font-size: $font-size*2
+    
+    h3
+        text-transform: uppercase  
+        font-size: $font-size*1.75
+    h4
+        text-transform: uppercase 
+        font-size: $font-size*1.5
+    h5
+        text-transform: capitalize
+        font-size: $font-size*1.25
+        
+        
+//navigation
+#navigation
+    
+    li
+        float: left
+        padding-left: 10px
+    a
+        color: $color-white
+    
+    li:first-child a
+        color: $color-yellow
+//Header        
+header
+    background-color: $color-black
+    
+    display: flex
+    justify-content: space-between
+    align-items: center
+    
+    padding: 15px
+    
+    img
+        height: 50%
+        
+//cover
+#cover
+    
+    display: flex
+    justify-content: space-between
+    
+    border: 1px solid $color-white
+    
+    div
+        width: 50%
+        height: 398px
+        
+        display: flex
+        flex-wrap: wrap
+        align-content: center
+        justify-content: center
+        //text-align: center
+        
+        background-color: $color-white
+        
+        img
+            height: 100%
+            width: 100%
+        
+        p,h1
+            margin: 20px 30px;
+            
+    >div:first-child
+        
+        background-image: url(../image/cover.jpg)
+        background-size: cover
+    
+        >div
+            
+            width: 150px
+            height: 200px
+        
+            position: relative
+            right: -185px
+            bottom: -185px
+        
+            background-color: rgba(0,0,0,0)
+        
+            a
+                padding: 10px
+                background-color: $color-yellow
+                
+                color: $color-gray
+            
+            p
+                margin: 0 0
+            
+            
+
+//room-info
+#room-info
+    
+    display: flex
+    color: $color-white
+    
+    div
+        width: $container-width/3
+        background-color: $color-black
+        
+        img
+            width: 100%
+            border-bottom: $yellow-border-width $yellow-border-style $yellow-border-color
+        
+        h3,p
+            padding: 15px
+            
+    div:nth-child(2)
+        background-color: $color-brown
+    
+    
+//contact-info    
+#contact-info
+    display:flex
+    
+    >div
+        width: $container-width/3
+        padding: 20px 15px
+        
+        h4
+            color: $color-gray
+            
+    >div:first-child
+        
+        border-right: $yellow-border-width $yellow-border-style $yellow-border-color
+    
+        *
+            padding-bottom: 10px
+    
+    >div:last-child
+        h4
+            color: $color-white
+        
+
+.blog
+    display:flex
+    
+    background-color: $color-gray
+    
+    border: 1px solid $color-white
+    
+    padding-left: 15px;
+    
+    div
+        display: flex
+        flex-wrap: wrap
+        align-items: center
+        width: 50%
+    img
+        width: 100%
+        height: 100%
+    a
+        color: $color-black
+        
+//footer
+footer
+    display: flex
+    background-color: $color-yellow
+    
+    h4
+        padding-bottom: 30px
+    
+    >div
+        width: $container-width/3
+        padding: 20px 10px
+
+    >div:first-child
+    
+        padding-left: 0px
+    
+        img
+            width: 100%
+            height: 100%
+        
+    >div:nth-child(2)
+    
+        border-right: $gray-border-width $gray-border-style $gray-border-color
+        border-left: $gray-border-width $gray-border-style $gray-border-color
+    
+        
+        
+        >div
+            padding-bottom: 20px
+            
+        img
+            width: 50px
+            height: 50px
+
+    >div:last-child
+        padding-right: 0px
+    
+        a
+            padding: 10px
+            background-color: $color-black
+            color: $color-white
+            
+            margin-bottom: 10px
+    
+        input
+            width: 100%
+            height: 30px
+            
+            margin-bottom: 10px
+        
+        
+        >div:first-child
+        
+            display: flex
+            flex-wrap: wrap
+            
+            border-bottom: $gray-border-width $gray-border-style $gray-border-color
+        
+        
+        >div:last-child
+            
+            padding-top: 20px
+            padding-bottom: 20px
+            
+            img
+                
+                padding-left: 5px
+                padding-right: 5px
+    
+
+.section
+    
+    width: 50px
+    height: 50px
+    padding-right: 30px
+    
+    
+.post
+    display: flex
+    align-items: center
+    
+    
+//copyright
+#copyright
+    
+    background-color: $color-yellow
+    
+    border-top: $gray-border-width $gray-border-style $gray-border-color
+    
+    display: flex
+    justify-content: space-between
+    
+    ul
+        display: flex
+        
+        li
+            padding-left: 10px
+            
+            a
+                color: $color-gray
+        
+        
+        
+        
+    
+    
