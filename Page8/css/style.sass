@@ -1,0 +1,393 @@
+//import
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+
+
+//Settings
+
+$background-min-width: 1300px
+
+$container-width: 1200px
+
+$color-background-gray: #F2F2F2
+$color-red: #EB3228
+$color-gray: #FAFAFA
+$color-white: #FFF
+$color-black: #000
+
+$font-size: 1em
+
+
+
+.clear
+    clear: both
+    
+.container
+    width: $container-width
+    margin: 0 auto
+    
+.background-deepgray
+    background-color: $color-background-gray
+    
+    
+.background-red
+    background-color: $color-red
+    
+.title-font-style
+    text-transform: uppercase
+    
+body
+    font-size: $font-size
+    min-width: $background-min-width
+    font-family: 'Lato', sans-serif;
+    font-weight: 700
+    
+    a
+        @extend .title-font-style
+        color: $color-black
+        text-decoration: none
+    
+    h1
+        @extend .title-font-style
+        
+    h2
+        @extend .title-font-style
+        font-size: $font-size*2
+        
+    h3
+        @extend .title-font-style
+        font-size: $font-size * 1.5
+        
+    h4
+        @extend .title-font-style
+        font-size: $font-size * 1.25
+        
+    p::first-letter
+        text-transform: uppercase
+    p
+        font-weight: 400
+    
+    
+//Customize
+
+
+//contact info
+#contact-info
+
+    display: flex
+    justify-content: flex-end
+    align-content: center
+    
+    >*
+        padding: 15px 10px
+    
+    
+//header
+
+header
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+    align-items: center
+    padding: 15px 0px
+    
+    >div
+        display: flex
+        align-items: center
+        
+        a
+            padding: 15px 10px
+        
+        a:first-child
+        
+            border-right: 1px solid #AAA
+            padding: 10px 15px
+            margin-top: 5px
+            margin-bottom: 5px
+        
+        a:last-child
+            padding: 15px 25px
+            background-color: $color-red
+            color: $color-white
+        
+//Navigation        
+#navigation
+    background-color: $color-gray
+    border: 1px solid #AAA
+    padding: 20px 0
+    
+    ul
+        display: flex
+        justify-content: space-around
+        align-items: center
+        
+        li
+            width: 100%
+            border-right: 1px solid #AAA
+            text-align: center
+            
+        li:last-child
+            border-right: none
+        
+        input
+            
+            padding: 5px
+            
+            
+//Filter label
+#filter-title
+    padding: 5px
+    background-color: $color-black
+    color: $color-white
+    width: 150px
+    text-align: center
+
+    margin-top: 25px
+    margin-left: 15px
+    
+    
+//Filter
+#filter
+    background-color: $color-white
+    
+    display: flex
+    justify-content: space-around
+    align-content: center
+    
+    padding: 0 30px
+    
+    >div
+        width: 30%
+        
+    
+    >div:first-child
+    
+        padding-top: 20px
+    
+        a
+            text-transform: lowercase
+        h4
+            text-align: center
+        
+        #list-container
+            
+            text-align: right
+            
+            padding-top: 10px
+            
+            display: flex
+            justify-content: space-around
+            
+            >div
+                width: 35%
+            #list2
+                border-left: 1px solid #AAA
+            
+    
+            
+    >div:nth-child(2)
+    
+        display: flex
+        justify-content: space-around
+    
+        div
+            text-align: center
+        
+        h4
+            color: $color-red
+            
+        *
+            padding: 10px 0
+            
+    >div:last-child
+    
+        display: flex
+        flex-wrap: wrap
+        justify-content: space-around
+    
+        *
+            margin: 10px 0
+    
+    
+#product-info
+    
+    padding-top: 50px
+    
+    
+    //Title
+    >div:first-child
+    
+        padding-bottom: 15px
+        h2
+            text-transform: capitalize
+        h3
+            text-transform: capitalize
+            
+    //product
+    >div:last-child
+        
+        display: flex
+        justify-content: space-between
+    
+    
+        //Product image
+        >div:first-child
+            width: 40%
+            display: flex
+            flex-wrap: wrap
+            justify-content: space-between
+        
+            >img
+                padding-bottom: 15px
+                width: 100%
+            
+            >div:hover
+                border: 5px solid $color-red
+        
+        //infomation
+        >div:last-child    
+        
+            text-align: right
+            width: 40%
+        
+        
+        
+        
+#section1
+
+    display: flex
+    
+    padding-bottom: 10px
+    
+    border-bottom: 1px solid #AAA
+
+    #price
+        >div:first-child
+            display: flex
+            justify-content: space-between
+
+            h3
+                padding: 10px 30px
+                background-color: $color-red
+                color: $color-white
+
+                text-decoration: line-through
+
+                margin-left: 30px
+                margin-right: 30px
+
+        >div:last-child
+
+            margin-top: 5px
+            margin-right: 30px
+            h2
+                background-color: $color-white
+                padding: 10px 30px
+
+                font-size: $font-size*5
+
+                border: 1px solid #AAA
+            
+    #discount
+        
+        display: flex
+        align-items: center
+        
+#section2
+    padding-top: 10px
+    
+    p
+        color: #AAA
+        
+#section3
+    display: flex
+    justify-content: flex-end
+    align-items: center
+    
+    padding-top: 20px
+    
+#section4
+    padding-top: 20px
+                    
+#section5
+    
+    padding-top: 20px
+    a
+        padding: 15px 30px
+        background-color: $color-red
+        color: $color-white
+        
+#section6
+    padding-top: 20px
+    
+
+#info
+    
+    margin-top: 50px
+    
+    div:first-child
+    
+        a
+            padding: 20px 30px
+            background-color: $color-white
+            margin-right: 5px
+            
+    
+        a:first-child
+            
+            background-color: $color-red
+            color: $color-white
+    
+    div:last-child
+    
+        margin-top: 21px
+        
+        border: 1px solid #AAA
+        background-color: $color-white
+    
+        padding: 40px 20px
+    
+        h4
+            padding-top: 40px
+            color: $color-red
+    
+    
+//Footer
+footer
+    display: flex
+    justify-content: space-between
+    align-items: center
+
+        
+    padding: 50px 0       
+    
+    >div:nth-child(2)
+    
+        width: 70%
+    
+        ul
+            display: flex
+            align-items: center
+            justify-content: space-around
+            
+            li
+                flex: 1
+            
+                text-align: center
+                border-right: 1px solid $color-white
+            
+            li:last-child
+                border-right: none
+            
+            li:nth-child(3), li:nth-child(4)
+            
+                flex: 2
+            a
+
+                color: $color-white
+                text-transform: capitalize
+        
+    >div:last-child
+        text-align: right
+        img
+            padding-left: 10px
+    
